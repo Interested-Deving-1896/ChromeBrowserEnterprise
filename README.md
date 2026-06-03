@@ -1,28 +1,75 @@
-# cbe-rest-api
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# ChromeBrowserEnterprise
 
-Use the [Chrome Browser Enterprise (CBE)](https://support.google.com/chrome/a/topic/9025410?hl=en&ref_topic=4386754) REST API to manage the Chrome browser in your orgnization. 
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/ChromeBrowserEnterprise)
 
-## Documentation
-* [Getting started with CEC API > start here](https://github.com/google/ChromeBrowserEnterprise/blob/main/docs/API_Get_Started.md)
-* [Scopes](docs/auth.md)
-* APIs
-  * [App Details API](https://github.com/google/ChromeBrowserEnterprise/blob/main/docs/App_Details_api.md)
-  * [Chrome Enterprise Core API](https://github.com/google/ChromeBrowserEnterprise/blob/main/docs/CBCM_api.md)
-  * [Chrome Management API](https://github.com/google/ChromeBrowserEnterprise/blob/main/docs/Chrome_Management_Reports_api.md)
-  * [Chrome Policy API](https://github.com/google/ChromeBrowserEnterprise/blob/main/docs/Chrome_Policy_api.md)
-  * [Directory API](https://github.com/google/ChromeBrowserEnterprise/blob/main/docs/Directory_api.md)
-  * [Enrollment Token API](https://github.com/google/ChromeBrowserEnterprise/blob/main/docs/Enrollment_Token_api.md)
-  * [Reports API](https://github.com/google/ChromeBrowserEnterprise/blob/main/docs/Reports_api.md)
-* Postman
-  * [Using Postman for CBCM API calls](https://github.com/google/ChromeBrowserEnterprise/blob/main/postman/README.md)
-  * [Postman collection](https://www.postman.com/google-chrome-enterprise-apis/workspace/google-chrome-enterprise-public/overview) - requests that utilizes the above mentioned APIs.
-* PowerShell 
-  * [Random Scripts](https://github.com/google/ChromeBrowserEnterprise/tree/main/Windows/PowerShell) - scripts to wake the browser and force browser to update.
-  * [Random CBCM Scripts](https://github.com/google/ChromeBrowserEnterprise/tree/main/Windows/PowerShell/cbcm) - script to add the enrollment token to the device and launch the browesr (complete the enrollment process).
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
+## Architecture
 
-## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/ChromeBrowserEnterprise.git
+cd ChromeBrowserEnterprise
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/ChromeBrowserEnterprise`](https://github.com/Interested-Deving-1896/ChromeBrowserEnterprise) and mirrored through:
+
+```
+Interested-Deving-1896/ChromeBrowserEnterprise  ──►  OpenOS-Project-OSP/ChromeBrowserEnterprise  ──►  OpenOS-Project-Ecosystem-OOC/ChromeBrowserEnterprise
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
-See [LICENSE](LICENSE) for details.
+
+<!-- AI:start:license -->
+[Apache-2.0](https://github.com/Interested-Deving-1896/ChromeBrowserEnterprise/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
